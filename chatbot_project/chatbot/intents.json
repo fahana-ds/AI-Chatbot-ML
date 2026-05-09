@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "good night"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's today's weather",
+        "today temperature",
+        "is it raining today",
+        "is it sunny today"
+      ],
+      "responses": ["Please tell me your city name."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "can you say a joke"],
+      "responses": ["Why don’t scientists trust atoms? Because they make up everything! 😄"]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "what is ml",
+        "what is python",
+        "what is dl"
+      ],
+      "responses": ["It is a concept in technology. I can explain more if you ask specifically."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["i need help", "can you help me", "i want help"],
+      "responses": ["Sure! I am here to help you. What do you need?"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thanks for your help"],
+      "responses": ["You're welcome!", "Glad I could help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "tell me your name"
+      ],
+      "responses": ["I am Novic-AI, your chatbot assistant!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what is the time", "current time", "tell me time"],
+      "responses": ["I can tell time if connected to system clock."]
+    }
+  ]
+}
