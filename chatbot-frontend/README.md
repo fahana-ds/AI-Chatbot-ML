@@ -1,16 +1,52 @@
-# React + Vite
+# AI Chatbot 🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple AI chatbot built using Machine Learning, Django, and React.
 
-Currently, two official plugins are available:
+## Features
+- Understands greetings and simple conversations
+- Machine learning intent classification
+- React frontend
+- Django backend API
+- Real-time chatbot interaction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- Python
+- Scikit-learn
+- Django
+- React
+- JavaScript
+- HTML/CSS
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+AI-Chatbot-ML/
+├── chatbot_project/ → Django backend
+├── chatbot-frontend/ → React frontend
+├── train.py → Model training
+├── intents.json → Chatbot intents
+├── model.pkl → Trained ML model
+├── vectorizer.pkl → Text vectorizer
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+```bash
+python manage.py runserver
+```
+
+### Frontend
+
+```bash
+npm run dev
+```
+
+## Future Improvements
+- Better UI design
+- Database integration
+- NLP improvements
+- Voice chatbot support
+- Deployment to cloud
+
+## Author
+Fahana
